@@ -84,6 +84,9 @@ def download(
     output: str
         Output filename.
     """
+    id_temp = url.split('d/')[1].split('/view')[0]
+    url = 'https://drive.google.com/uc?id=' + id_temp
+    
     url_origin = url
     sess = requests.session()
 
