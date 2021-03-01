@@ -22,15 +22,12 @@
 
 ## Description
 
-Download a large file from Google Drive.  
-If you use curl/wget, it fails with a large file because of
-the security warning from Google Drive.
-
+This fork works with new google drive link format.
 
 ## Installation
 
 ```bash
-pip install gdown
+pip install git+https://github.com/realiti4/gdown.git@master --upgrade
 ```
 
 
