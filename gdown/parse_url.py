@@ -10,8 +10,8 @@ def parse_url(url, warning=True):
     file_id: ID of file on Google Drive.
     is_download_link: Flag if it is download link of Google Drive.
     """
-    id_temp = url.split('d/')[1].split('/view')[0]
-    url = 'https://drive.google.com/uc?id=' + id_temp
+    #id_temp = url.split('d/')[1].split('/view')[0]
+    #url = 'https://drive.google.com/uc?id=' + id_temp
     
     parsed = urllib_parse.urlparse(url)
     query = urllib_parse.parse_qs(parsed.query)
