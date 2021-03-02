@@ -22,7 +22,7 @@
 
 ## Description
 
-This fork works with new google drive link format.
+Works with '/view?usp=sharing' links.
 
 ## Installation
 
